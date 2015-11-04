@@ -187,4 +187,9 @@
 
 			return $this->execute( 'POST', $data );
         }
+
+		public function checkRecipient() {
+			$data = ['id' => $this->id];
+			return $this->execute( 'GET', $data );
+		}
 	}
