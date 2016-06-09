@@ -1,0 +1,19 @@
+{
+    "name": "nebijokit/mailersoft-php",
+    "type": "library",
+    "description": "Mailersoft PHP library",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "minimum-stability": "stable",
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    },
+    "autoload-dev": {
+        "classmap": ["src/"]
+    }
+}
